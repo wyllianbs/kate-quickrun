@@ -40,15 +40,45 @@ Kate's embedded Terminal, or to an external terminal window, your choice.
 
 ## 🖼️ Screenshots
 
-<!-- Drop the real captures into docs/ with these names and the images render. -->
+### Quick Run Terminal — C Demo
 
-| Run menu (destinations) | Configuration |
+Dedicated terminal running C code from bottom panel:
+
+![C Demo](docs/screenshots/01_quickrun_demo_c_bottom.png)
+
+### Quick Run Terminal — Python Demo
+
+Same terminal running Python:
+
+![Python Demo](docs/screenshots/02_quickrun_demo_py_bottom.png)
+
+### Docking Positions
+
+The terminal is movable and can be docked on any side:
+
+| Left | Right | Top |
+|---|---|---|
+| ![Left](docs/screenshots/03_quickrun_dock_left.png) | ![Right](docs/screenshots/04_quickrun_dock_right.png) | ![Top](docs/screenshots/05_quickrun_dock_top.png) |
+
+### Kate's Embedded Konsole Terminal
+
+Reuse Kate's built-in terminal:
+
+![Kate Terminal](docs/screenshots/11_konsole_demo_c_output.png)
+
+### External Terminal Mode
+
+Run in any terminal emulator (Konsole, GNOME Terminal, etc.):
+
+![External Terminal](docs/screenshots/14_external_demo_c.png)
+
+### Configuration Panels
+
+Customize languages, compile flags, terminal destination, and more:
+
+| Quick Run Options | External Terminal Options |
 |---|---|
-| ![Run menu](docs/menu.png) | ![Configuration](docs/config.png) |
-
-The Quick Run Terminal docked beside the editor, running an interactive program:
-
-![Quick Run Terminal](docs/own-terminal.png)
+| ![Quick Run Config](docs/screenshots/09_quickrun_config.png) | ![External Config](docs/screenshots/16_external_config_1.png) |
 
 ---
 
@@ -216,7 +246,7 @@ GPL-2.0-or-later. See the license header in the sources.
 
 ## 🙋 Author
 
-Prof. Wyllian — <wyllianbs@gmail.com>
+Prof. Wyllian Bezerra da Silva — wyllianbs@gmail.com
 
 ---
 
